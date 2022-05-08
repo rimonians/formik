@@ -1,10 +1,11 @@
 import React from "react";
+import "./App.css";
+import Signup from "./components/Signup";
 
 const App = () => {
   return (
-    <div>
-      <h3>React Formik</h3>
-      <p>Let's move with react formik</p>
+    <div className="container">
+      <Signup />
     </div>
   );
 };
